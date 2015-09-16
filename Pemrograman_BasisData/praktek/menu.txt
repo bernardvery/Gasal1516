@@ -1,0 +1,20 @@
+MASTER -> Submenu
+\_ Data Barang -> Command -> do form frm_barang.scx
+\_ Data Konsumen-> Command -> do form frm_konsumen.scx
+\_ Data Sales -> Command -> do form frm_sales.scx
+\_ Data Kolektor -> Command -> do form frm_kolektor.scx
+
+TRANSAKSI-> Submenu
+\_ Pesan Barang -> Command -> do form frm_pesan.scx
+\_ Order Barang -> Command -> do form frm_order.scx
+\_ Pembayaran -> Command -> do form frm_bayar.scx
+
+LAPORAN -> Submenu
+\_ Laporan Data Barang -> Command -> repo form lap_barang.frx prev
+\_ Laporan Data Konsumen -> Command -> repo form lap_konsumen.frx prev
+\_ Laporan Data Sales -> Command -> repo form lap_sales.frx prev
+\_ Laporan Data Kolektor -> Command -> repo form lap_kolektor.frx prev
+
+KELUAR -> Procedure
+
+	APPLICATION.ACTIVEFORM.RELEASE()

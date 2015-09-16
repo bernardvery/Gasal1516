@@ -1,0 +1,34 @@
+Silabus:
+========
+1.Konsep Dasar database & tabel (columns & row)
+2.SQL (DDL, DML)
+3.Normalisasi/Denormalisasi
+4.Primary Keys, Foreign Keys dan Constraint
+5.Transactions
+6.Index
+7.view
+8.Database Security
+9.Stored procedure & Function
+10.Triggers
+
+Foxpro:
+=======
+1.Buat Database & Tabel
+2.Proses CRUD (Create-Read-Update-Delete)
+3.Kode perintah database & kontrol window
+4.Prosedur & Form
+5.Report
+6.Indexing & Searching
+7.Lain-lain:
+ 7.1.Perintah Dasar
+ 7.2.Logika Percabangan
+ 7.3.Logika Pengulangan
+ 7.4.Konversi & Message Box
+ 7.5.Project & Database/Tabel
+ 7.6.Mengolah Data dengan Form
+ 7.7.Index & Searching
+ 7.8.Form Single Tabel
+ 7.9.Form Multi Tabel
+ 7.10.Laporan
+ 7.11.Menu & Kompilasi
+ 7.12.Distribusi aplikasi

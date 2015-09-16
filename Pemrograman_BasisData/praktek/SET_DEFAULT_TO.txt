@@ -1,0 +1,7 @@
+LOCAL lcSys16,lcProgram, lcdrive
+
+lcSys16 = SYS(16)
+lcProgram = SUBSTR(lcSys16, AT(":", lcSys16) - 1)
+lcDrive = LEFT(lcProgram,2)
+
+SET DEFAULT TO &lcDrive
