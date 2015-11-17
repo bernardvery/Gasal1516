@@ -1,0 +1,26 @@
+Latihan 1:
+
+1). Download source code CI 2.X -> extract ke folder web
+2). Buka CI Documentation di folder "user_guide"
+3). Lihat pada bagian "Helper References"
+4). Pilih "Form Helper"
+5). Buat file view (folder: application/views) yang memanfaatkan
+    form helper tsb --> nama file: form_1.php
+6). Buat controller baru (folder: application/controllers)
+    --> nama file : latihan.php
+7). Buat method index pada controller tsb
+8). isi method tsb dengan perintah berikut:
+    $this->load->helper('form');
+    $this->load->view('form_1');
+
+Alamat akses:
+http://localhost/CI/index.php/latihan/
+
+Latihan 2:
+
+1) tambah method 'fungsi' pada controller 'latihan.php'
+2) isi method:
+   load view 'biodata.php'
+Alamat akses:
+http://localhost/CI/index.php/latihan/info
+
